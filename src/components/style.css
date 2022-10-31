@@ -5,14 +5,59 @@
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(./images/c5ca0a39ab61700370b8b2f23fe4a8de.jpg);
+  background-image: url(./images/Coding.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
 
+#bgjdl{
+  padding: 30px;
+  color: white;
+  height: 78vh;
+  text-align: center;
+  border: 2px solid black;
+  background-image: url(./images/c5ca0a39ab61700370b8b2f23fe4a8de.jpg);
+  background-size:cover;
+  width: 1000px;
+  box-shadow: 0 5px 30px black;
+}
+
+#bgjdl h1{
+  background-color: black;
+  /* background-color: transparent; */
+  /* background: linear-gradient(red black); */
+  box-shadow: 0 5px 30px black;
+  padding: 5px;
+}
+
+#bgjdl p{
+  background-color: black;
+  /* background-color: transparent; */
+  box-shadow: 0 5px 30px black;
+  text-align: left;
+  font-weight: bold;
+}
+
+.rct{
+  font-weight: bold;
+  color: #61DBFB;
+}
+
+.my {
+  font-weight: bold;
+  color: #6495ED;
+}
+
+.sql {
+  color: orange;
+}
+
 #jdl{
   line-height: 40px;
+  text-align: center;
+  margin-left: -30px;
 }
+
 .container{
   display: flex;
   justify-content: center;
@@ -23,11 +68,16 @@ h4{
   color: white;
   padding: 20px;
 }
+
 .form{
   width: 350px;
-  height: 424px;
+  height: 430px;
   background-color: rgba(41, 39, 39, 0.3);
   box-shadow: 0 5px 30px black;
+}
+
+.ft{
+  padding: 30px;
 }
 
 .btn a {
@@ -114,6 +164,8 @@ a{
 a:hover{
   color: black;
   cursor: pointer;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .greet {

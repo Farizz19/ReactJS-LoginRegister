@@ -1,10 +1,12 @@
 import './style.css';
 import { Link } from 'react-router-dom';
 import Register from './Register';
+import Welcome from './Welcome';
 
 const Login = () => {
     return(
       <div id='login' class="container">
+       <Welcome/>
       <div class="form">
         <div id='jdl' class="btn">
         <Link to='/Register' class="signUpBtn">DAFTAR</Link>

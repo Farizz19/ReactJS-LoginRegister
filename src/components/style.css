@@ -47,7 +47,7 @@ h4{
 
 .formGroup input{
   border: none;
-  width: 80%;
+  width: 75%;
   border-bottom: 2px solid white;
   padding: 10px;
   margin-bottom: 20px;
@@ -79,7 +79,7 @@ input:focus {
   width: 15px;
 }
 .text{
-  color: rgb(199, 197, 197);
+  color: white;
   font-size: 13px;
 }
 .btn2{
@@ -112,7 +112,13 @@ a{
   text-decoration: none;
 }
 a:hover{
-  text-decoration: underline red;
+  color: black;
   cursor: pointer;
 }
 
+.greet {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+}

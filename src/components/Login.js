@@ -11,6 +11,9 @@ const Login = () => {
           <Link to='/' class="loginBtn">MASUK</Link>
         </div>
         <form class="pp"/>
+         <div class="formGroup">
+                 <span class="greet">MASUK</span>
+          </div>
           <div class="formGroup form-floating">
             <input type="email" placeholder="Alamat Email" name="email" required autocomplete="off"/>
           </div>

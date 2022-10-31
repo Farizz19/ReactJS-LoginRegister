@@ -12,6 +12,10 @@ const Register = () => {
         </div>
         <form class="pp"/>
           <div class="formGroup">
+                 <span class="greet">DAFTAR</span>
+          </div>
+        <form class="pp"/>
+          <div class="formGroup">
             <input type="text" id="username" placeholder="Nama Pengguna" autocomplete="off"/>
           </div>
           <div class="formGroup">

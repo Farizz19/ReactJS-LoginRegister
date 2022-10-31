@@ -7,13 +7,10 @@ const Login = () => {
       <div id='login' class="container">
       <div class="form">
         <div id='jdl' class="btn">
-        <Link to='/Register' class="signUpBtn">SIGN UP</Link>
-          <Link to='/' class="loginBtn">LOG IN</Link>
+        <Link to='/Register' class="signUpBtn">DAFTAR</Link>
+          <Link to='/' class="loginBtn">MASUK</Link>
         </div>
         <form class="pp"/>
-        <div class="formGroup">
-        <h4>Sign In</h4>
-          </div>
           <div class="formGroup form-floating">
             <input type="email" placeholder="Alamat Email" name="email" required autocomplete="off"/>
           </div>

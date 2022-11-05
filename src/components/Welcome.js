@@ -1,4 +1,4 @@
-import Bg from './images/sp.mp4'
+
 
 const Welcome = () => {
     return(

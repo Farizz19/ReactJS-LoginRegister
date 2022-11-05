@@ -61,7 +61,7 @@ body{
 .container{
   display: flex;
   justify-content: center;
-  align-items:center !important;
+  align-items:center;
   height: 100vh;
 }
 h4{
@@ -108,12 +108,13 @@ h4{
 }
 
 input:focus {
-  outline: none !important;
+  outline: none;
   border-bottom: 2px solid rgb(91, 243, 131);
   font-size: 17px;
   font-weight: bold;
   color: white;
 }
+
 ::placeholder {
   color: white;
 }

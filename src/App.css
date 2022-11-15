@@ -1,4 +1,4 @@
-.box {
+/* .box {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -12,4 +12,58 @@
   
   input {
     border: 1px solid #85FFBD;
-  }
+  } */
+
+ /* .tabel{
+  background-color: black;
+  border: 5px solid red;
+  margin: 20px;
+  color: white;
+  float: left;
+ } */
+
+ .card{
+  background-color: black;
+  width: 1000px;
+  padding: 20px;
+  margin-top: 35px;
+ }
+
+ #butt{
+  width: 1000px;
+ }
+
+ #total{
+  border: 10px solid orange;
+  box-shadow: 3px 3px black;
+ }
+
+ #nama{
+  font-weight: bold;
+  font-size: 25px;
+ }
+
+ img{
+  height: 300px;
+ }
+
+
+ hr{
+  background-color: black;
+  height: 13px;
+ }
+
+ button:hover{
+  background-color: orange;
+ }
+
+ button{
+  width: 100px;
+  height: 100px;
+  box-shadow: 3px 3px black;
+ }
+
+ #harga{
+  font-size: 25px;
+  font-weight: bolder;
+ }
